@@ -20,7 +20,7 @@ Artemis SVL Versions:
     * precompiled binaries and a makefile are located in ```bootloader/gcc```
       (the artemis module target is suitable for all current SparkFun products)
   * Python is installed on your computer
-  * your program is compiled + linked to support the SVL (binary offset ```0x10000```)
+  * your program is compiled + linked to support the SVL (binary offset ```0x20000```)
 * use the SVL loader script to upload to the board
 
   ```python svl.py [flags] port```
